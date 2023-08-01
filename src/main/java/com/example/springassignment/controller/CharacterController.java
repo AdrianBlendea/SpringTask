@@ -75,7 +75,7 @@ public class CharacterController {
     private String updateCharacter(@RequestParam(name="id",required=true) int id,
                                    @RequestParam(name="name",required=true) String name,
                                    @RequestParam(name="title",required=true) String title) {
-
+        String a="asd";
         return characterService.editOne(id,name,title);
     }
 }
